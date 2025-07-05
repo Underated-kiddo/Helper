@@ -1,0 +1,35 @@
+# === Node backend ===
+node_modules/
+.env
+uploads/
+dist/
+
+# MongoDB local database files (if you ever have them in your repo folder)
+*.log
+*.lock
+dump/
+data/
+mongod.lock
+
+# === React frontend ===
+client/node_modules/
+client/.env
+client/build/
+client/dist/
+
+# === Logs ===
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# === OS / IDE ===
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# === Misc ===
+*.swp
+*.swo

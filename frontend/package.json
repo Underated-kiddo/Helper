@@ -1,5 +1,5 @@
 {
-  "name": "helper",
+  "name": "frontend",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,10 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "-": "^0.0.1",
+    "@tailwindcss/cli": "^4.1.11",
+    "@tailwindcss/vite": "^4.1.11",
     "axios": "^1.10.0",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react-dom": "^19.1.0",
+    "tesseract.js": "^6.0.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.29.0",
